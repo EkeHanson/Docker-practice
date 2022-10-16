@@ -1,0 +1,3 @@
+How to generate SSh Key for connection instead of https connection
+command is
+ssh-keygen -t rsa -C ekeneahsnon@gmail.com

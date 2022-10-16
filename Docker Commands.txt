@@ -1,0 +1,8 @@
+ This command from git Bash: delete all running conatianers
+docker rm -f $(docker ps -aq)
+
+This command will pull the image(nginx:latest) run the image in detached mode(-d), listening to port (8080) on the PC which correspond to port (80) on the container and name the container (website).
+docker run --name website -d -p 8080:80 nginx:latest
+
+This commandwill build the application image(conatinerize-basic) from at the root directory(.)
+ docker build -t containerize-basic.jar .  
